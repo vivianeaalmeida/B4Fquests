@@ -1,6 +1,5 @@
-function calcularPerimetroTrapIsosceles(baseMaior, baseMenor, altura) {
-  const lado = 
-	Math.sqrt(Math.pow((baseMaior - baseMenor) / 2, 2) + Math.pow(altura, 2));
-  const perimetro = baseMaior + baseMenor + 2 * lado;
+function perimetroDoLosango(diagonalMaior, diagonalMenor) {
+  const lado = 0.5 * Math.sqrt(Math.pow(diagonalMaior, 2) + Math.pow(diagonalMenor, 2));
+  const perimetro = 4 * lado;
   return perimetro;
 }
