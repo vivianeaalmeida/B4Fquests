@@ -39,3 +39,7 @@ class Pilha {
         }
     }
 }
+//TESTE
+let nomeDaClasse = new Pilha(200)
+nomeDaClasse.adicionar(5)
+console.log(nomeDaClasse.obterValor())
